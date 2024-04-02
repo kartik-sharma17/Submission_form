@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Submission</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><!--for importing text-->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- for font family used in h2 and label of  form -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Borel&family=Bungee&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="header"><!-- for header-->
+        <h1> Form Submission</h1>
+        <div class="headerin"><!-- for header items-->
+            <h3> Product </h3>
+            <h3> About </h3>
+            <h3> <span>Contact</span></h3>
+        </div>
+    </header>
+    <div class="main">
+        <div class="main1"> <!--for image-->
+            <img src="input new.png" width="500px" height="500px">
+        </div>
+
+        <div class="main2"> <!--for inputing the details of user  -->
+            <h2>Contact Us</h2>
+            <form action="first.php" method="post">
+
+                <label for="name">Name *</label>
+                <input type="text" id="name" name="firstName"></input>
+
+                <label for="contact">P.Number *</label>
+                <input type="number" id="contact" name="contact"></input>
+
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email"></input>
+
+                <label for="address">Address *</label>
+                <input type="text" id="address" name="Address"></input>
+
+                <label for="feedBack">Feedback *</label>
+                <textarea id="feedBack" name="feedBack"></textarea>
+
+                <button id="button">Contact</button>
+            </form>
+        </div>
+
+
+    </div>
+    <footer><!--for footer-->
+        <div class="footer1">
+            <h3>Form Submission</h3>
+            <h5>By Kartik Sharma</h5>
+        </div>
+        <h5 class="secandary">Contact at Contactkartikforwork@gmail.com</h5>
+        <div class="i secandary"><!--icon used on footer-->
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-facebook-messenger"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
