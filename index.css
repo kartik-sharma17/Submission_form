@@ -1,20 +1,28 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-body{
+span{
+    border: 1px solid black;
+    padding: 8px 20px;
+    border-radius: 7px;
+    color: white;
+    background-color: #F85917;
+}
+
+body {
     background-color: #ffeef4;
 
 }
 
 
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     background-color: white;
-    height: 13vh;
+    height: 10vh;
     width: 80%;
     align-items: center;
     padding: 10px 30px;
@@ -23,25 +31,32 @@ body{
     border-radius: 50px;
 }
 
-.header h1{
+.header h1 {
     font-family: "Oswald";
     font-weight: 900;
 }
 
-.headerin{
+.headerin {
     display: flex;
     justify-content: space-evenly;
     width: 50%;
+    font-family: "Rubik", sans-serif;
+    font-weight: 100;
+    font-size: 1vw;
 }
 
-.main{
-    height: calc(100vh - 31vh);
-    width: 80%;
+.main {
+    height: calc(100vh - 20vh);
+    width: 85%;
     margin: auto;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
 
 }
 
-footer{
+footer {
     display: flex;
     justify-content: space-between;
     height: 13vh;
@@ -49,18 +64,108 @@ footer{
     align-items: center;
     padding: 10px;
     margin: auto;
-    margin-top: 10px;
     border-top: 0.5px solid black;
+    margin-top: 20px;
 }
 
-.footer1{
+.footer1 {
     margin-top: -10px;
 }
 
-footer h3{
+footer h3 {
     font-family: "Oswald";
 }
 
-.secandary{
+.secandary {
     margin-top: 15px;
+}
+
+.main1 {
+    height: calc(100vh - 33vh);
+    width: 35%;
+    /* background-color: red; */
+}
+
+
+/* for input details div  */
+.main2 {
+    height: calc(100vh - 21vh);
+    width: 41%;
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-left-radius: 4%;
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 4%;
+    border-bottom-right-radius: 4%;
+    border: 1px solid black;
+    /* margin-right: 20px; */
+}
+
+/* for main2 h2 */
+.main2 h2{
+    font-family: "Bungee";
+    font-weight: 100;
+    padding: 0px;
+    margin-bottom: -25px;
+    margin-top: 40px;
+}
+
+/* for form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* to set input width and height */
+input,
+textarea {
+    width: 27vw;
+    height: 6vh;
+    padding: 7px;
+    margin: 5px;
+    border-radius: 7px;
+    border: 0.5px solid black;
+}
+
+/* for button used in submit form */
+#button {
+    width: 27vw;
+    height: 6vh;
+    margin-top: 15px;
+    font-weight: 500;
+    /* font-family: "Bungee"; */
+    font-family: "Rubik", sans-serif;
+    font-size: 15px;
+    background-color: #F85917;
+    color: white;
+    border: none;
+}
+
+
+label {
+    position: relative;
+    background-color: white;
+    padding: 0px;
+    top: 12px;
+    left: -140px;
+    font-size: 12px;
+    padding: 0 3px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;  
+}
+
+
+/* for image  */
+.main1{
+    margin-top: -70px;
+    margin-right: 100px; 
+}
+
+/* for icon use in footer */
+.i{
+    font-size: 1.5vw;
 }
