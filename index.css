@@ -29,6 +29,7 @@ body {
     margin: auto;
     margin-top: 10px;
     border-radius: 50px;
+    box-shadow: 1px 1px 7px rgb(59, 59, 59);
 }
 
 .header h1 {
@@ -76,6 +77,12 @@ footer h3 {
     font-family: "Oswald";
 }
 
+/* for f5 in footer */
+footer h5{
+    font-family: "Teko";
+    font-size: 1vw;
+}
+
 .secandary {
     margin-top: 15px;
 }
@@ -102,6 +109,7 @@ footer h3 {
     border-bottom-right-radius: 4%;
     border: 1px solid black;
     /* margin-right: 20px; */
+    
 }
 
 /* for main2 h2 */
